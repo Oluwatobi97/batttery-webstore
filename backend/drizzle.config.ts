@@ -1,10 +1,13 @@
-import type { Config } from 'drizzle-kit';
+import type { Config } from 'drizzle-kit'
 
-export default {
+const config: Config = {
     schema: './src/db/schema.ts',
     out: './src/db/migrations',
     driver: 'pg',
     dbCredentials: {
-        connectionString: process.env.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/exam_system',
+        connectionString:
+            process.env.DATABASE_URL ?? 'postgresql://postgres:postgres@localhost:5432/battery_store',
     },
-} satisfies Config;
+}
+
+export default config

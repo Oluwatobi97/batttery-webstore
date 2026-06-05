@@ -9,7 +9,7 @@ import hpp from 'hpp';
 // TOOD fix this typo error
 // import xss from 'xss-clean';
 import dotenv from 'dotenv';
-import productsRouter from './modules/products/routes';
+// import productsRouter from './modules/products/routes';
 
 dotenv.config();
 
@@ -57,7 +57,7 @@ app.get('/api', (req, res) => {
 });
 
 // Mount routes
-app.use('/api/products', productsRouter);
+// app.use('/api/products', productsRouter);
 
 // 404 handler
 app.use((req, res) => {

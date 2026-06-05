@@ -88,7 +88,7 @@ docker compose exec -it db psql -U postgres
 ### Access PostgreSQL in Docker
 
 ```bash
-docker compose exec -it db psql -U postgres -d exam_system
+docker compose exec -it db psql -U postgres -d baterry_store
 ```
 
 ### Useful SQL Commands
@@ -104,7 +104,7 @@ docker compose exec -it db psql -U postgres -d exam_system
 \l
 
 -- Connect to database
-\c exam_system
+\c battery_store
 ```
 
 ## Testing the API
