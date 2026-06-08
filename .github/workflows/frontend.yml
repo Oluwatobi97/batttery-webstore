@@ -30,8 +30,6 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        env:
-          HUSKY: 0
 
       - name: Run Build
         run: npm run build
