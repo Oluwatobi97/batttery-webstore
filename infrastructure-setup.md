@@ -126,7 +126,7 @@ CMD ["npm", "run", "dev"]
 ```env
 PORT=5000
 
-DATABASE_URL=postgresql://postgres:postgres@db:5432/exam_system
+DATABASE_URL=postgresql://postgres:postgres@db:5432/battery-store
 
 JWT_SECRET=secret
 
