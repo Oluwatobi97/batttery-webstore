@@ -12,8 +12,12 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint --fix"],
-    "*.{ts,tsx,json,css}": ["prettier --write"]
+    "*.{ts,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{ts,tsx,json,css}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "next": "16.2.7",
